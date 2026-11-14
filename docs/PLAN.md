@@ -1,6 +1,20 @@
-# Proje Planı: Kiriş Hesaplayıcı (Beam Calculator)
+# Proje Planı: AI-Assisted Strength of Materials Calculations for Machine Elements
 
 > Durum: **TASLAK**. "Varsayım" ile işaretli maddeler henüz onaylanmadı.
+
+## 0. Genel proje ve modüller
+
+Ana proje: makine elemanları için mukavemet ve burulma hesaplarını Python ile yapan,
+sonrasında yapay zekâ ile destekleyen açık kaynak bir araç seti.
+
+| Modül | İçerik | Durum |
+|---|---|---|
+| 1. Kiriş (beam) | Eğilme, kesme, sehim | **Bu planın konusu (v1)** |
+| 2. Mil (shaft) | Burulma, eğilme + burulma birleşik gerilme | Planlanıyor |
+| 3. Diğer makine elemanları | Cıvata, yay, kama vb. mukavemet kontrolleri | Daha sonra |
+| 4. Yapay zekâ katmanı | Optimizasyon, vekil model, LLM asistanı | Daha sonra |
+
+Bu belgenin geri kalanı **Modül 1: Kiriş** içindir.
 
 ## 1. Amaç
 
